@@ -25,3 +25,13 @@ Route::get('contact', function()
     return View::make('pages.contact');
 });
 
+Route::get('gallery', function()
+{
+    return View::make('pages.gallery');
+});
+
+Route::get('blog', function()
+{
+    return View::make('pages.blog');
+});
+
